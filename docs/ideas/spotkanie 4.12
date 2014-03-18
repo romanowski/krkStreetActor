@@ -1,0 +1,34 @@
+1. Schemat ruchu auta
+
+- moja propozycja
+    auto mówi czy chce się ruszyć potem gdy dostanie pozwolenie wybiera gdzie chce sie ruszuć w następnym ruchu
+    - za: wydajność (żadziej liczona funkcja ruchu)
+- propozycja Daniela
+    auto w momencie decyzji czy jedzie decyduje gdzie jedzie
+    - za: lepsze dostosowywanie sie do warunków (decyzja zaraz przed ruchem, możliwość zmiany decyzji)
+
+Po dyskusji wybieram model Daniela
+
+2. Wizualiacja
+    -open street map - można by - dużo roboty
+    -google map - obawy o wydajność
+    - gnuplot/matlap -> miasto jako obrazek pod wykresem, auta jako punkty w 2d
+
+
+3. Rozpraszanie danych / klaster
+
+    - Narazie robimy na jedną maszyne (brak rozpraszania)
+    - Potem bedziemy to na zeusie odpalać na fizycznej jednej maszynie
+    - Jeszcze potem bedziemy to na wirtualnej fizycznej maszynie z N procesorami (podobno sie da)
+    - Jak zostanie czasu bedziemy rozpraszać na fizyczne maszyny (sparck)
+
+4. Car move strategy
+
+    -prędkość samochodu  wyrażana jako ilość_cellek/klatke_animacji
+    -adaptacja
+        -
+
+
+5. Mała granulacja
+6. Wiele pasów
+7. Gereacja

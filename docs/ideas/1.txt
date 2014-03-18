@@ -1,0 +1,8 @@
+1. Mamy jeden model dla wszystkich wersji
+2. Oparty na id-ach
+3. Logika opiera sie na smochodzi - samochód jedzie a nie miasto przestawia samochód
+4. Wsztyskie operacje potrzebujace danych - siedzą w miescie
+5. Ruch
+    a) auto mówi gdzie chce jechać
+    b) framework przyznaje mu pozwolenie i auto jedzie
+6. Skrzyżowanie - ma regułe pierszeństwa, miasto może ją nadpisać.
