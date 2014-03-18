@@ -1,5 +1,5 @@
 symulacja: http://www.it.pw.edu.pl/prace-naukowe/z86/krawiec-celinski.pdf
-analiza artykół: http://edroga.pl/inzynieria-ruchu/projektowanie/2959-analizy-symulacyjne-w-zarzadzaniu-ruchem-drogowym-i-jego-bezpieczenstwem-cz-i
+analiza: http://edroga.pl/inzynieria-ruchu/projektowanie/2959-analizy-symulacyjne-w-zarzadzaniu-ruchem-drogowym-i-jego-bezpieczenstwem-cz-i
 symulacja 2 - modele komórkowe: http://journals.bg.agh.edu.pl/AUTOMATYKA/2009-03/Auto43.pdf, http://kret.ifd.uni.wroc.pl/~ganelon/str/tmp/ak.pdf
 
 
