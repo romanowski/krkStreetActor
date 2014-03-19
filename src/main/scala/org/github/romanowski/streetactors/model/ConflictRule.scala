@@ -13,8 +13,7 @@ trait ConflictRule {
 
   val forCrossroads: CrossRoadCell
 
-  def resolveOnlyOnStreet(onA: CarId, onB: CarId): CarId
+  def resolveOnlyOnStreet(onA: Car, onB: Car): Car
 
-  def resolve(city: City)(onA: CarId, onB: CarId): CarId =
-    city.resolveConflictOnCityLevel(forCrossroads)(onA, onB).getOrElse(resolveOnlyOnStreet(onA, onB))
+  def resolve(city: City)(onA: Car, onB: Car): Car =   ???
 }

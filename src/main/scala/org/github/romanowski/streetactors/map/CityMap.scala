@@ -11,7 +11,7 @@ import org.github.romanowski.streetactors.model.Trip
  * To change this template use File | Settings | File Templates.
  */
 trait CityMap {
-  val crossroads: Set[CrossRoadCell]
+  val crossroads: Map[String, CrossRoadCell]
 
   def computeTrip(from: Cell, to: Cell): Trip
 

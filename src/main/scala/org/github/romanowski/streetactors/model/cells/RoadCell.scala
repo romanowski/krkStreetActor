@@ -8,8 +8,10 @@ package org.github.romanowski.streetactors.model.cells
  * Time: 10:23
  * To change this template use File | Settings | File Templates.
  */
-case class RoadCell(id: String) extends Cell {
+case class RoadCell(fromId: String, toId: String, nr: Int) extends Cell {
   private var _nextCell: Cell = _
+
+  val id = s"$fromId-$toId#$nr"
 
   def init(nextCell: Cell): Unit = {
     _nextCell = nextCell

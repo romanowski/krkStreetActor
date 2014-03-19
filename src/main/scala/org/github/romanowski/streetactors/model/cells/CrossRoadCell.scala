@@ -13,20 +13,27 @@ case class CrossRoadCell(id: String,
                          leftExit: Cell,
                          rightExit: Cell,
                          conflictRule: ConflictRule) extends Cell {
+  var rightIn: Option[Cell] = None
+  var leftIn: Option[Cell] = None
+
+  def input(road: Cell, turn: Direction): Unit = turn match {
+    case LeftTurn => leftIn = Some(road)
+    case RightTurn => rightIn = Some(road)
+  }
 
   def resolveConflict(cars: Set[Car], time: Int): Car = ???
 
 }
 
-sealed trait Direction{
+sealed trait Direction {
   def symbol: String
 }
 
-object LeftTurn extends Direction{
+object LeftTurn extends Direction {
   def symbol: String = "L"
 }
 
-object Right extends Direction{
+object RightTurn extends Direction {
   def symbol: String = "R"
 }
 
